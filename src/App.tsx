@@ -41,7 +41,7 @@ const App = () => {
   return (
     <QueryClientProvider client={queryClient}>
       <ThemeProvider defaultTheme="light" storageKey="theme">
-        <BrowserRouter>
+        <BrowserRouter basename={import.meta.env.BASE_URL}>
           <AuthProvider>
             <Routes>
               {/* Public Routes */}
