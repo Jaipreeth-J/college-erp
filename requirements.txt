@@ -1,0 +1,2 @@
+# This is a Node.js/React project. Dependencies are managed in package.json using npm.
+# This file is created as a placeholder.
